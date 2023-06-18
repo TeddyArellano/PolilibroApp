@@ -1,5 +1,6 @@
 package com.example.proyectodecalculo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -12,8 +13,8 @@ class UnitsActivity : AppCompatActivity() {
 
         val btnHome = findViewById<Button>(R.id.btnHome)
         btnHome.setOnClickListener {
-            Toast.makeText(this, "Has presionado el botón Inicio", Toast.LENGTH_SHORT).show()
-            // Agrega aquí el código para manejar el botón Inicio
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
 
         val btnUnits = findViewById<Button>(R.id.btnUnits)
@@ -24,9 +25,9 @@ class UnitsActivity : AppCompatActivity() {
 
         val btnSettings = findViewById<Button>(R.id.btnSettings)
         btnSettings.setOnClickListener {
-            Toast.makeText(this, "Has presionado el botón Ajustes", Toast.LENGTH_SHORT).show()
-            // Agrega aquí el código para manejar el botón Ajustes
-        }
+            val intent = Intent(this, SettingsActivity::class.java)
+            startActivity(intent)
+            }
 
     }
 }
