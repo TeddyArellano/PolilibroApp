@@ -9,74 +9,293 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center"
-        android:layout_marginTop="5dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/ivLogo"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginLeft="10dp"
-            android:src="@mipmap/icon_polilibro" />
-
-        <TextView
-            android:id="@+id/tvTitle"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textSize="10pt"
-            android:layout_marginTop="12dp"
-            android:text="Cálculo Aplicado"/>
+            android:layout_gravity="top"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/tvTitle"
-            android:layout_width="wrap_content"
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:src="@mipmap/icon_polilibro" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="10pt"
+                android:layout_gravity="center"
+                android:text="Cálculo Aplicado"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="10pt"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Polilibro"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                //Unidad 1
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="UNIDAD 1"
+                        android:textColor="#FF4F4F"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="La integral definida"
+                        android:textColor="#FF4F4F"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_gravity="center"
+                        android:justificationMode="inter_word"
+                        android:text="\nAprenderemos a utilizar la integral para resolver problemas relacioandos con área, volúmenes, longitud de curvas y áreas superficiales.\n"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btnUnit1"
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_unit1"
+                        android:text="Ir a la Unidad 1"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                //Unidad 2
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="UNIDAD 2"
+                        android:textColor="#4FCDFF"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_gravity="center"
+                        android:justificationMode="inter_word"
+                        android:text="Formas indeterminadas e integrales impropias"
+                        android:textColor="#4FCDFF"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_gravity="center"
+                        android:justificationMode="inter_word"
+                        android:text="\nAprenderemos aaprender a determinar la convergencia o divergencia de una integral impropia a  partir de los límites de formas indeterminadas.\n"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btnUnit2"
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_unit2"
+                        android:text="Ir a la Unidad 1"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                //Unidad 3
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="UNIDAD 3"
+                        android:textColor="#FFCC4C"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_gravity="center"
+                        android:justificationMode="inter_word"
+                        android:text="Sucesiones y Series"
+                        android:textColor="#FFCC4C"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:justificationMode="inter_word"
+                        android:text="\nEstableceremos la convergencia o divergencia de sucesiones y series a partir de sus propiedades, características y criterios.\n"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btnUnit3"
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_unit3"
+                        android:text="Ir a la Unidad 1"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+                //Unidad 4
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="UNIDAD 4"
+                        android:textColor="#59FB95"
+                        android:textSize="35dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:layout_gravity="center"
+                        android:justificationMode="inter_word"
+                        android:text="Series de Potencia"
+                        android:textColor="#59FB95"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:justificationMode="inter_word"
+                        android:text="\nVeremos como representar funciones como series de potencias a partir de las series de Taylor y de McLaurin.\n"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btnUnit4"
+                        android:layout_width="200dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_unit4"
+                        android:text="Ir a la Unidad 1"
+                        android:textColor="#000000" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textSize="10pt"
-            android:layout_marginLeft="60dp"
-            android:layout_marginTop="12dp"
-            android:text="Polilibro"/>
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHome"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="#4B6FA1"
+                android:textColor="#FFFFFF"
+                android:text="Inicio" />
+
+
+            <Button
+                android:id="@+id/btnUnits"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="#4B6FA1"
+                android:text="Unidades"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btnSettings"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="#4B6FA1"
+                android:text="Ajustes"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
 
     </LinearLayout>
-
-
-    <LinearLayout
-
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="bottom|center_horizontal"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnHome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="20pt"
-            android:background="#4B6FA1"
-            android:textColor="#FFFFFF"
-            android:text="Inicio" />
-
-        <Button
-            android:id="@+id/btnUnits"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5pt"
-            android:background="#4B6FA1"
-            android:textColor="#FFFFFF"
-            android:text="Unidades" />
-
-        <Button
-            android:id="@+id/btnSettings"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20pt"
-            android:background="#4B6FA1"
-            android:textColor="#FFFFFF"
-            android:text="Ajustes" />
-
-    </LinearLayout>
-
 
 </FrameLayout>
