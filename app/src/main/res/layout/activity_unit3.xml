@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9EB"
+    tools:context=".Unit3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/buttons_lower"
+                    android:textColor="#FFFFFF"
+                    android:text="ATRÁS"
+                    android:layout_gravity="center|start"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15pt"
+                android:layout_gravity="end|center"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/button_unit3"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="UNIDAD 3"/>
+
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                //3.1
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textStyle="bold"
+                        android:textSize="12pt"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/button_select"
+                        android:textColor="#D6A21D"
+                        android:text="3.1 Sucesiones"/>
+
+                    <Button
+                        android:id="@+id/btn111Introduction"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.1.1 Introducción"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.1.2 Notación de las sucesiones"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.1.3 Gráfica de una sucesión"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.1.4 Convergencia de una sucesión"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.1.5 Teoremas para sucesiones"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                //3.2
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textStyle="bold"
+                        android:textSize="12pt"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/button_select"
+                        android:textColor="#D6A21D"
+                        android:text="3.2 Series"/>
+
+                    <Button
+                        android:id="@+id/btn111Introduction"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.2.1 Serie infinita"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.2.2 Series especiales"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.2.3 Criterio del n-ésimo término"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.2.4 Propiedades de las series"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                //3.3
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="12pt"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/button_select"
+                        android:textColor="#D6A21D"
+                        android:text="3.3 Criterios de convergencia"/>
+
+                    <Button
+                        android:id="@+id/btn111Introduction"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.3.1 Introducción"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.3.2 Criterio de la integral"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.3.3 Serie hiperarmónica | P"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.3.4 Criterio básico de comparación"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.3.5 Criterio de comparación límite"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.3.6 Criterio de la raíz"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.3.7 Criterio de la razón"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                //3.4
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textStyle="bold"
+                        android:textSize="12pt"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:background="@drawable/button_select"
+                        android:textColor="#D6A21D"
+                        android:text="3.4 Series Alternantes"/>
+
+                    <Button
+                        android:id="@+id/btn111Introduction"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.4.1 Introducción"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.4.2 Criterio para series alternantes"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.4.3 Convergencia Absoluta"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btn112SumasDeReimann"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_select"
+                        android:text="3.4.4 Convergencia Condicional"
+                        android:textColor="#D6A21D"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+                //Extras
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnEjercicios"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_unit3"
+                        android:text="Lista Ejercicios Resueltos"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/btnCalculadora"
+                        android:textAllCaps="false"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_unit3"
+                        android:text="Cálculadora Unidad 3"
+                        android:textColor="#000000"
+                        android:textSize="20dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@mipmap/icon_polilibro" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="10pt"
+                    android:layout_gravity="center"
+                    android:text="Cálculo Aplicado"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="10pt"
+                    android:layout_gravity="end|center"
+                    android:gravity="center"
+                    android:text="Polilibro"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

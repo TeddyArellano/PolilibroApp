@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFF9EB"
-    tools:context=".CreditsActivity">
+    tools:context=".IntroductionActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="end"
                 android:layout_marginEnd="10dp"
-                android:src="@mipmap/icon_actividades" />
+                android:src="@mipmap/icon_ejercicios" />
 
         </FrameLayout>
 
@@ -57,7 +57,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -67,7 +67,7 @@
                         android:textStyle="bold"
                         android:textSize="15pt"
                         android:layout_marginTop="10dp"
-                        android:text="CRÉDITOS"/>
+                        android:text="¡Bienvenido!"/>
 
                 </LinearLayout>
 
@@ -85,7 +85,41 @@
                         android:layout_gravity="center"
                         android:textSize="10pt"
                         android:justificationMode="inter_word"
-                        android:text="Las autoras de este libro-cuaderno detrabajo, estamos convencidas que le será útil al estudiante que cursa la Unidad de Aprendizaje de Cálculo integral, aplicaciones y series infinitas, porque el material ha sido desarrollado por las autoras y validado por estudiantes que ya han llevado el curso."/>
+                        android:text="Este recurso digital de Cálculo Integral, además de ser un proyecto
+para la materia, nace como una ayuda para aquellos alumnos que deseen estudiar la materia, de la mano de
+alumnos dela escuela Superior de Computo del IPN. Se recolecta la enseñansa a lo largo del tiempo con ayuda
+de docentes de la institución, y se otorga en esta aplicación a la mano de las personas."/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_gravity="center"
+                        android:textSize="10pt"
+                        android:justificationMode="inter_word"
+                        android:text="El Cálculo es importante para los ingenieros, pues otorga a los ingenieros
+los conocimientos y saberes necesarios que los puedan llevar a la resolución. Pero también es una materia que puede
+ser difícil de estudiar para algunas personas, es por eso que este material es pensado de forma práctica para poder
+ser estudiado de una forma reflexiva, pues así es el mismo estudiante quien le da sentiddo y lógica a los problemas
+que está resolviendo. Es por esta razón que los ejercicios resueltos se apoyan de un aspecto visual, que corresponde
+a las gráficas de las funciones que se estén abordando, de modo que se contará con varios formatos de presentación
+de los ejercicios, no solo la forma algebraica. Además de que las soluciones a los ejercicios están escritas de una
+forma articulada, paso a paso, con comentarios explicativos, no sólo una cadena de ecuaciones o fórmulas desconectadas. "/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_gravity="center"
+                        android:textSize="10pt"
+                        android:justificationMode="inter_word"
+                        android:text="Agredecimiento a los docentes que colaboraron para que este recurso esté al
+alcance de los estudiantes, pues el material ha sido desarollado por docentes y evaluado por los mismos alumnos
+los cuales han cursado la materia.\n"/>
 
                 </LinearLayout>
 

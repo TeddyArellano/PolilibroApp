@@ -11,6 +11,30 @@ class UnitsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_units)
 
+        val btnUnit1 = findViewById<Button>(R.id.btnUnit1)
+        btnUnit1.setOnClickListener {
+            val intent = Intent(this, Unit1Activity::class.java)
+            startActivity(intent)
+        }
+
+        val btnUnit2 = findViewById<Button>(R.id.btnUnit2)
+        btnUnit2.setOnClickListener {
+            val intent = Intent(this, Unit2Activity::class.java)
+            startActivity(intent)
+        }
+
+        val btnUnit3 = findViewById<Button>(R.id.btnUnit3)
+        btnUnit3.setOnClickListener {
+            val intent = Intent(this, Unit3Activity::class.java)
+            startActivity(intent)
+        }
+
+        val btnUnit4 = findViewById<Button>(R.id.btnUnit4)
+        btnUnit4.setOnClickListener {
+            val intent = Intent(this, Unit4Activity::class.java)
+            startActivity(intent)
+        }
+
         val btnHome = findViewById<Button>(R.id.btnHome)
         btnHome.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
@@ -19,8 +43,6 @@ class UnitsActivity : AppCompatActivity() {
 
         val btnUnits = findViewById<Button>(R.id.btnUnits)
         btnUnits.setOnClickListener {
-            Toast.makeText(this, "Has presionado el botón Unidades", Toast.LENGTH_SHORT).show()
-            // Agrega aquí el código para manejar el botón Unidades
         }
 
         val btnSettings = findViewById<Button>(R.id.btnSettings)

@@ -12,40 +12,45 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="top"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
+            android:layout_height="80dp">
 
-            <ImageView
-                android:id="@+id/ivLogo"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:layout_marginStart="10dp"
-                android:src="@mipmap/icon_polilibro" />
-
-            <TextView
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textStyle="bold"
-                android:textSize="10pt"
                 android:layout_gravity="center"
-                android:text="Cálculo Aplicado"/>
+                android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textStyle="bold"
-                android:textSize="10pt"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:text="Polilibro"/>
+                <ImageView
+                    android:id="@+id/ivLogo"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@mipmap/icon_polilibro" />
 
-        </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="10pt"
+                    android:layout_gravity="center"
+                    android:text="Cálculo Aplicado"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="10pt"
+                    android:layout_gravity="end|center"
+                    android:gravity="center"
+                    android:text="Polilibro"/>
+
+            </LinearLayout>
+
+        </FrameLayout>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -60,17 +65,20 @@
 
 
                 <Button
-                    android:layout_width="250dp"
+                    android:id="@+id/btnIntroduction"
+                    android:layout_width="300dp"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
                     android:layout_gravity="center"
+                    android:layout_weight="1"
                     android:background="@drawable/button_unit1"
                     android:text="Introducción"
                     android:textColor="#FF0000"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <Button
-                    android:layout_width="250dp"
+                    android:id="@+id/btnOrganization"
+                    android:layout_width="300dp"
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:layout_marginTop="80dp"
@@ -79,64 +87,71 @@
                     android:background="@drawable/button_unit2"
                     android:text="Organización"
                     android:textColor="#0900FF"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
                 <Button
-                    android:layout_width="250dp"
+                    android:layout_width="300dp"
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:layout_gravity="center"
                     android:background="@drawable/button_unit3"
                     android:text="Unidades"
                     android:textColor="#FF8A00"
+                    android:textSize="20dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
         </ScrollView>
 
-        <LinearLayout
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="10dp"
-            android:orientation="horizontal">
+            android:layout_height="70dp">
 
-            <Button
-                android:id="@+id/btnHome"
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="15dp"
-                android:layout_marginEnd="15dp"
-                android:background="#4B6FA1"
-                android:textColor="#FFFFFF"
-                android:text="Inicio" />
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnHome"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/buttons_lower"
+                    android:textColor="#FFFFFF"
+                    android:text="Inicio" />
 
 
-            <Button
-                android:id="@+id/btnUnits"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="15dp"
-                android:layout_marginEnd="15dp"
-                android:background="#4B6FA1"
-                android:text="Unidades"
-                android:textColor="#FFFFFF" />
+                <Button
+                    android:id="@+id/btnUnits"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/buttons_lower"
+                    android:text="Unidades"
+                    android:textColor="#FFFFFF" />
 
-            <Button
-                android:id="@+id/btnSettings"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="15dp"
-                android:layout_marginEnd="15dp"
-                android:background="#4B6FA1"
-                android:text="Ajustes"
-                android:textColor="#FFFFFF" />
+                <Button
+                    android:id="@+id/btnSettings"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@drawable/buttons_lower"
+                    android:text="Ajustes"
+                    android:textColor="#FFFFFF" />
 
-        </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
 
     </LinearLayout>
 

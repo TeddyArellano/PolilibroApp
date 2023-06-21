@@ -13,6 +13,24 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".Unit4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Unit2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".OrganizationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroductionActivity"
+            android:exported="false" />
+        <activity
             android:name=".CreditsActivity"
             android:exported="false" />
         <activity

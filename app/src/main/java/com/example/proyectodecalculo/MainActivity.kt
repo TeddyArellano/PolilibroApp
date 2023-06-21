@@ -11,10 +11,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val btnIntroduction = findViewById<Button>(R.id.btnIntroduction)
+        btnIntroduction.setOnClickListener {
+            val intent = Intent(this, IntroductionActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnOrganization = findViewById<Button>(R.id.btnOrganization)
+        btnOrganization.setOnClickListener {
+            val intent = Intent(this, OrganizationActivity::class.java)
+            startActivity(intent)
+        }
+
         val btnHome = findViewById<Button>(R.id.btnHome)
         btnHome.setOnClickListener {
-            Toast.makeText(this, "Has presionado el botón Inicio", Toast.LENGTH_SHORT).show()
-            // Agrega aquí el código para manejar el botón Inicio
         }
 
         val btnUnits = findViewById<Button>(R.id.btnUnits)

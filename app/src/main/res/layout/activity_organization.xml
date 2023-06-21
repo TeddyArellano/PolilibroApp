@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFF9EB"
-    tools:context=".CreditsActivity">
+    tools:context=".OrganizationActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                 android:layout_height="60dp"
                 android:layout_gravity="end"
                 android:layout_marginEnd="10dp"
-                android:src="@mipmap/icon_actividades" />
+                android:src="@mipmap/icon_ejercicios" />
 
         </FrameLayout>
 
@@ -57,7 +57,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="5dp"
                     android:orientation="vertical">
 
                     <TextView
@@ -67,7 +67,7 @@
                         android:textStyle="bold"
                         android:textSize="15pt"
                         android:layout_marginTop="10dp"
-                        android:text="CRÉDITOS"/>
+                        android:text="¿Cómo se Organiza?"/>
 
                 </LinearLayout>
 
@@ -85,7 +85,35 @@
                         android:layout_gravity="center"
                         android:textSize="10pt"
                         android:justificationMode="inter_word"
-                        android:text="Las autoras de este libro-cuaderno detrabajo, estamos convencidas que le será útil al estudiante que cursa la Unidad de Aprendizaje de Cálculo integral, aplicaciones y series infinitas, porque el material ha sido desarrollado por las autoras y validado por estudiantes que ya han llevado el curso."/>
+                        android:text="El recurso que puedes encontrar dentro es correspondiente al curso de la
+Unidad de Aprendizaje de Cálculo Aplicado que se imparte en el Programa Académico de Ingería en Sistemas
+Computacionales de la Escuela Superior de Cómputo del Instituto Politécnico Nacional."/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_gravity="center"
+                        android:textSize="10pt"
+                        android:justificationMode="inter_word"
+                        android:text="Se presenta en 4 Unidades, cadda una de ellas enfocada a diferentes temas,
+tienen cierta cantidad de explicaciones que corresponde a cada tema. Encontrarás explicaciones detalladas, demostraciones,
+ejemplos resueltos."/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_marginEnd="40dp"
+                        android:layout_gravity="center"
+                        android:textSize="10pt"
+                        android:justificationMode="inter_word"
+                        android:text="Al final de cada tema encontrarás 2 apartados:\n
+1. Listas de Ejercicios.\nEjercicios de los temas expuestos, que ya están resueltos y se muestra
+paso a paso su resolución.\n2. Acitivdades.\nEjercicios sin resolver, para que el alumno pueda poner en práctica lo aprendido.\n"/>
 
                 </LinearLayout>
 
