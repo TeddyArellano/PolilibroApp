@@ -15,6 +15,11 @@ class Unit2Activity : AppCompatActivity() {
             val intent = Intent(this, UnitsActivity::class.java)
             startActivity(intent)
         }
+        val btnEjercicios = findViewById<Button>(R.id.btnEjercicios)
+        btnEjercicios.setOnClickListener {
+            val intent = Intent(this, ListaUnidad2::class.java)
+            startActivity(intent)
+        }
         val btn211Introduction = findViewById<Button>(R.id.btn211Introduction)
         btn211Introduction.setOnClickListener {
             val intent = Intent(this, Activity_211::class.java)

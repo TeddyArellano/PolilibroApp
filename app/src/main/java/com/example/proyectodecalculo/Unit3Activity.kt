@@ -35,6 +35,11 @@ class Unit3Activity : AppCompatActivity() {
             val intent = Intent(this, UnitsActivity::class.java)
             startActivity(intent)
         }
+        val btnEjercicios = findViewById<Button>(R.id.btnEjercicios)
+        btnEjercicios.setOnClickListener {
+            val intent = Intent(this, ListaUnidad3::class.java)
+            startActivity(intent)
+        }
 
         val btn311 = findViewById<Button>(R.id.btn311)
         btn311.setOnClickListener {

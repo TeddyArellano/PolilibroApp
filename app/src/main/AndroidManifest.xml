@@ -16,6 +16,76 @@
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".ListaTylor"
+            android:exported="false" />
+        <activity
+            android:name=".ListaSeriesPotencias"
+            android:exported="false" />
+        <activity
+            android:name=".ListaUnidad4"
+            android:exported="false" />
+        <activity
+            android:name=".ActividadSeries"
+            android:exported="false" />
+        <activity
+            android:name=".ActividadSucesiones"
+            android:exported="false" />
+        <activity
+            android:name=".ListaAlternantes"
+            android:exported="false" />
+        <activity
+            android:name=".ListaConvergencia"
+            android:exported="false" />
+        <activity
+            android:name=".ListaSeries"
+            android:exported="false" />
+        <activity
+            android:name=".ListaSucesiones"
+            android:exported="false" />
+        <activity
+            android:name=".ListaUnidad3"
+            android:exported="false" />
+        <activity
+            android:name=".ActIndeterminadas"
+            android:exported="false" />
+        <activity
+            android:name=".ActInpropias"
+            android:exported="false" />
+        <activity
+            android:name=".ListaInpropias"
+            android:exported="false" />
+        <activity
+            android:name=".ListaIndeterminadas"
+            android:exported="false" />
+        <activity
+            android:name=".ListaUnidad2"
+            android:exported="false" />
+        <activity
+            android:name=".ActNumerica"
+            android:exported="false" />
+        <activity
+            android:name=".ActAplicacion"
+            android:exported="false" />
+        <activity
+            android:name=".Aplicacion_Integral"
+            android:exported="false" />
+        <activity
+            android:name=".Integracion_Numerica"
+            android:exported="false" />
+        <activity
+            android:name=".Integral_Definida"
+            android:exported="false" />
+        <activity
+            android:name=".AreaBajolaCurva"
+            android:exported="false" />
+        <activity
+            android:name=".ListaUnidad1"
+            android:exported="false" />
+        <activity
+            android:name=".ListasActividadesU1"
+            android:exported="false" />
+
+        <activity
             android:name=".CalculatorUnit2ReglaLHopital"
             android:exported="false" />
         <activity
