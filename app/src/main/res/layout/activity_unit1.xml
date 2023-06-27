@@ -79,7 +79,7 @@
                         android:text="1.1 Área bajo la curva"/>
 
                     <Button
-                        android:id="@+id/btn111Introduction"
+                        android:id="@+id/btn111"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn112"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
                         android:text="1.2 Integral Definida"/>
 
                     <Button
-                        android:id="@+id/btn122Introducion"
+                        android:id="@+id/btn121"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn122PropiedadesIntegralD"
+                        android:id="@+id/btn122"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -149,7 +149,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn113TeoremaFundCal"
+                        android:id="@+id/btn123"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
                         android:text=" 1.3 Integración numérica "/>
 
                     <Button
-                        android:id="@+id/btn131Trapecio"
+                        android:id="@+id/btn131"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -195,7 +195,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn132Simpson"
+                        android:id="@+id/btn132"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -229,7 +229,7 @@
                         android:text="1.4 Aplicaciones integral definida"/>
 
                     <Button
-                        android:id="@+id/btn141Introducion"
+                        android:id="@+id/btn141"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -241,7 +241,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn142AreaCurvas"
+                        android:id="@+id/btn142"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -253,7 +253,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn143VolumenSolidos"
+                        android:id="@+id/btn143"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -265,7 +265,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn144VolumenSecciones"
+                        android:id="@+id/btn144"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -277,7 +277,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn145LogitudArco"
+                        android:id="@+id/btn145"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -311,7 +311,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btnCalculadora"
+                        android:id="@+id/btnCalculadoraUnit1"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"

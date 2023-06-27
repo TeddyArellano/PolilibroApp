@@ -79,7 +79,7 @@
                         android:text="4.1 Series de Potencia"/>
 
                     <Button
-                        android:id="@+id/btn111Introduction"
+                        android:id="@+id/btn411"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn412"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
                         android:text="4.2 Series de Taylor y McLaurin"/>
 
                     <Button
-                        android:id="@+id/btn111Introduction"
+                        android:id="@+id/btn421"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -137,7 +137,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn422"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"

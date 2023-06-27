@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
     <application
+        android:networkSecurityConfig="@xml/network_security_config"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,6 +16,118 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
         tools:targetApi="31">
+        <activity
+            android:name=".Unit4.Activity422"
+            android:exported="false" />
+        <activity
+            android:name=".Unit4.Activity421"
+            android:exported="false" />
+        <activity
+            android:name=".Unit4.Activity412"
+            android:exported="false" />
+        <activity
+            android:name=".Unit4.Activity411"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Four.Activity344"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Four.Activity343"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Four.Activity342"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Four.Activity341"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Three.Activity337"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Three.Activity336"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Three.Activity335"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Three.Activity334"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Three.Activity333"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Three.Activity332"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Three.Activity331"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Two.Activity324"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Two.Activity323"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Two.Activity322"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.Two.Activity321"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.One.Activity315"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.One.Activity314"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.One.Activity313"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.One.Activity_312"
+            android:exported="false" />
+        <activity
+            android:name=".Unit3.One.Activity_311"
+            android:exported="false" />
+
+        <activity
+            android:name=".calculatorUnit1"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity_111"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity145"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity_144"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity143"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity142"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity_141"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity_133"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity_131"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity_123"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity_122"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity_121"
+            android:exported="false" />
+        <activity
+            android:name=".Unit1.Activity_112"
+            android:exported="false" />
         <activity
             android:name=".Unit4Activity"
             android:exported="false" />

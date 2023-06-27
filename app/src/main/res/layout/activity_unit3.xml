@@ -79,7 +79,7 @@
                         android:text="3.1 Sucesiones"/>
 
                     <Button
-                        android:id="@+id/btn111Introduction"
+                        android:id="@+id/btn311"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn312"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn313"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn314"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn315"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -161,7 +161,7 @@
                         android:text="3.2 Series"/>
 
                     <Button
-                        android:id="@+id/btn111Introduction"
+                        android:id="@+id/btn321"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn322"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -185,7 +185,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn323"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -197,7 +197,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn324"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -231,7 +231,7 @@
                         android:text="3.3 Criterios de convergencia"/>
 
                     <Button
-                        android:id="@+id/btn111Introduction"
+                        android:id="@+id/btn331"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -243,7 +243,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn332"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -255,7 +255,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn333"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -267,7 +267,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn334"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -279,7 +279,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn335"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -291,7 +291,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn336"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -303,7 +303,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn337"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -337,7 +337,7 @@
                         android:text="3.4 Series Alternantes"/>
 
                     <Button
-                        android:id="@+id/btn111Introduction"
+                        android:id="@+id/btn341"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -349,7 +349,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn342"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -361,7 +361,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn343"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -373,7 +373,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn112SumasDeReimann"
+                        android:id="@+id/btn344"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
