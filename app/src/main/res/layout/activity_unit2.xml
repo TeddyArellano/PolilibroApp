@@ -185,7 +185,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btn223IntegralesDisc"
+                        android:id="@+id/btn223"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"
@@ -219,7 +219,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btnCalculadora"
+                        android:id="@+id/btnCalculadoraUnit2"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"

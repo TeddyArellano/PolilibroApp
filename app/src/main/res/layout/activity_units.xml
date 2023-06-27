@@ -75,7 +75,7 @@
                         android:layout_gravity="center"
                         android:text="UNIDAD 1"
                         android:textColor="#FF4F4F"
-                        android:textSize="35dp"
+                        android:textSize="48sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -84,26 +84,29 @@
                         android:layout_gravity="center"
                         android:text="La integral definida"
                         android:textColor="#FF4F4F"
-                        android:textSize="30dp" />
+                        android:textSize="30dp"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="132dp"
+                        android:layout_gravity="center"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
-                        android:layout_gravity="center"
                         android:justificationMode="inter_word"
-                        android:text="\nAprenderemos a utilizar la integral para resolver problemas relacioandos con área, volúmenes, longitud de curvas y áreas superficiales.\n"
-                        android:textSize="20dp" />
+                        android:text="\nAprenderemos a utilizar la integral para resolver problemas relacionados con área, volúmenes, longitud de curvas y áreas superficiales."
+                        android:textColor="#040404"
+                        android:textSize="20sp" />
 
                     <Button
                         android:id="@+id/btnUnit1"
-                        android:layout_width="200dp"
-                        android:layout_height="25dp"
+                        android:layout_width="225dp"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:background="@drawable/button_unit1"
                         android:text="Ir a la Unidad 1"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
 
@@ -121,7 +124,7 @@
                         android:layout_gravity="center"
                         android:text="UNIDAD 2"
                         android:textColor="#4FCDFF"
-                        android:textSize="35dp"
+                        android:textSize="48sp"
                         android:textStyle="bold" />
 
                     <TextView
@@ -130,29 +133,33 @@
                         android:layout_gravity="center"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
+                        android:gravity="center"
                         android:justificationMode="inter_word"
                         android:text="Formas indeterminadas e integrales impropias"
                         android:textColor="#4FCDFF"
-                        android:textSize="30dp" />
+                        android:textSize="30dp"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="134dp"
                         android:layout_gravity="center"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
                         android:justificationMode="inter_word"
-                        android:text="\nAprenderemos aaprender a determinar la convergencia o divergencia de una integral impropia a  partir de los límites de formas indeterminadas.\n"
-                        android:textSize="20dp" />
+                        android:text="\nAprenderemos a determinar la convergencia o divergencia de una integral impropia a  partir de los límites de formas indeterminadas.\n"
+                        android:textColor="#020202"
+                        android:textSize="20sp" />
 
                     <Button
                         android:id="@+id/btnUnit2"
-                        android:layout_width="200dp"
-                        android:layout_height="25dp"
+                        android:layout_width="208dp"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:background="@drawable/button_unit2"
                         android:text="Ir a la Unidad 2"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
 
@@ -170,38 +177,41 @@
                         android:layout_gravity="center"
                         android:text="UNIDAD 3"
                         android:textColor="#FFCC4C"
-                        android:textSize="35dp"
+                        android:textSize="48sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
-                        android:layout_gravity="center"
                         android:justificationMode="inter_word"
                         android:text="Sucesiones y Series"
                         android:textColor="#FFCC4C"
-                        android:textSize="30dp" />
+                        android:textSize="30dp"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="133dp"
                         android:layout_gravity="center"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
                         android:justificationMode="inter_word"
                         android:text="\nEstableceremos la convergencia o divergencia de sucesiones y series a partir de sus propiedades, características y criterios.\n"
+                        android:textColor="#000000"
                         android:textSize="20dp" />
 
                     <Button
                         android:id="@+id/btnUnit3"
-                        android:layout_width="200dp"
-                        android:layout_height="25dp"
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:background="@drawable/button_unit3"
                         android:text="Ir a la Unidad 3"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
 
@@ -219,19 +229,20 @@
                         android:layout_gravity="center"
                         android:text="UNIDAD 4"
                         android:textColor="#59FB95"
-                        android:textSize="35dp"
+                        android:textSize="48sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
-                        android:layout_gravity="center"
                         android:justificationMode="inter_word"
                         android:text="Series de Potencia"
                         android:textColor="#59FB95"
-                        android:textSize="30dp" />
+                        android:textSize="30dp"
+                        android:textStyle="italic" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -241,16 +252,18 @@
                         android:layout_marginEnd="20dp"
                         android:justificationMode="inter_word"
                         android:text="\nVeremos como representar funciones como series de potencias a partir de las series de Taylor y de McLaurin.\n"
+                        android:textColor="#000000"
                         android:textSize="20dp" />
 
                     <Button
                         android:id="@+id/btnUnit4"
-                        android:layout_width="200dp"
-                        android:layout_height="25dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:background="@drawable/button_unit4"
                         android:text="Ir a la Unidad 4"
-                        android:textColor="#000000" />
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
 
                 </LinearLayout>
 

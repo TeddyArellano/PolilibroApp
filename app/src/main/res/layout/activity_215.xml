@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_215">
+
+    <FrameLayout
+        android:layout_width="410dp"
+        android:layout_height="654dp"
+        android:background="#FFF9EB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".UnitsActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="658dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/ivLogo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@mipmap/icon_polilibro" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="Cálculo Aplicado"
+                        android:textSize="10pt"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Polilibro"
+                        android:textSize="10pt"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="515dp"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView349"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:srcCompat="@drawable/potuno" />
+
+                    <ImageView
+                        android:id="@+id/imageView350"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        app:srcCompat="@drawable/potdos" />
+
+                    <ImageView
+                        android:id="@+id/imageView351"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp"
+                        app:srcCompat="@drawable/pottres" />
+                    <ImageView
+                        android:id="@+id/imageView352"
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp"
+                        app:srcCompat="@drawable/potcuatro" />
+
+                    <ImageView
+                        android:id="@+id/imageView353"
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp"
+                        app:srcCompat="@drawable/potcinco" />
+
+                    <ImageView
+                        android:id="@+id/imageView354"
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp"
+                        app:srcCompat="@drawable/potseis" />
+                    <ImageView
+                        android:id="@+id/imageView355"
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp"
+                        app:srcCompat="@drawable/potsiete" />
+
+                    <ImageView
+                        android:id="@+id/imageView356"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        app:srcCompat="@drawable/potocho" />
+
+                    <ImageView
+                        android:id="@+id/imageView357"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        app:srcCompat="@drawable/potnueve" />
+
+                    <ImageView
+                        android:id="@+id/imageView358"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        app:srcCompat="@drawable/potdiez" />
+                    <ImageView
+                        android:id="@+id/imageView359"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        app:srcCompat="@drawable/potonce" />
+                    <ImageView
+                        android:id="@+id/imageView360"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        app:srcCompat="@drawable/potdoce" />
+
+                    <ImageView
+                        android:id="@+id/imageView361"
+                        android:layout_width="match_parent"
+                        android:layout_height="280dp"
+                        app:srcCompat="@drawable/pottrece" />
+                    <ImageView
+                        android:id="@+id/imageView362"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        app:srcCompat="@drawable/potcatorce" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnBack"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center|start"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/buttons_lower"
+                            android:text="ATRÁS"
+                            android:textColor="#FFFFFF" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/button_unit2"
+                        android:gravity="center"
+                        android:text="UNIDAD 2"
+                        android:textColor="@color/black"
+                        android:textSize="15pt"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
