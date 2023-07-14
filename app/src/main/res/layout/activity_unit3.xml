@@ -407,7 +407,7 @@
                         android:textSize="20dp" />
 
                     <Button
-                        android:id="@+id/btnCalculadora"
+                        android:id="@+id/btnCalculadoraUnit3"
                         android:textAllCaps="false"
                         android:layout_width="300dp"
                         android:layout_height="wrap_content"

@@ -35,5 +35,11 @@ class SettingsActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnTermsOfUse = findViewById<Button>(R.id.btnTermsOfUse)
+        btnTermsOfUse.setOnClickListener {
+            val intent = Intent(this, TermsOfUseActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }

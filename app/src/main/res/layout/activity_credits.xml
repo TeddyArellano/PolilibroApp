@@ -85,7 +85,8 @@
                         android:layout_gravity="center"
                         android:textSize="10pt"
                         android:justificationMode="inter_word"
-                        android:text="Las autoras de este libro-cuaderno detrabajo, estamos convencidas que le será útil al estudiante que cursa la Unidad de Aprendizaje de Cálculo integral, aplicaciones y series infinitas, porque el material ha sido desarrollado por las autoras y validado por estudiantes que ya han llevado el curso."/>
+                        android:text="Los docentes de ESCOM que aportaron su conocimiento para poder ser compartido para todos los alumnos.\n
+Al igual que se da crédito a los integrantes del equipo de desarollo del proyecyo 'Polilibro para Android'\n\n.Creación del proyecto - 2023"/>
 
                 </LinearLayout>
 

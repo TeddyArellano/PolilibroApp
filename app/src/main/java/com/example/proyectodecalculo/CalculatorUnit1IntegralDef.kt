@@ -4,8 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.bumptech.glide.Glide
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -22,14 +24,15 @@ import java.io.StringReader
 import java.net.URLEncoder
 
 class CalculatorUnit1IntegralDef : AppCompatActivity() {
-    private lateinit var etIntegralEnd: EditText
     private lateinit var etIntegralComp: EditText
-    private lateinit var etIntegralStart: EditText
     private lateinit var tvAnswer: TextView
+    private lateinit var mvIMG: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculator_unit1_integral_def)
+
+        mvIMG = findViewById(R.id.mvIMG)
 
         etIntegralComp = findViewById(R.id.etIntegralComp)
         tvAnswer = findViewById(R.id.tvAnswer)
@@ -66,28 +69,31 @@ class CalculatorUnit1IntegralDef : AppCompatActivity() {
 
                 val responseBody = response.body?.string()
                 if (responseBody != null) {
-                    var solutionSteps = parseSolutionSteps(responseBody)
-
-
-
+                    var (solutionSteps, imageUrl) = parseSolutionSteps(responseBody)
+                    //...
                     // Traduce la solución al español
                     solutionSteps = translateToSpanish(solutionSteps)
-                    //callAPI(solutionSteps)
 
                     launch(Dispatchers.Main) {
                         tvAnswer.text = solutionSteps
+                        if (imageUrl != null) {
+                            Glide.with(this@CalculatorUnit1IntegralDef)
+                                .load(imageUrl)
+                                .into(mvIMG)
+                        }
                     }
                 }
             }
         }
     }
 
-    private fun parseSolutionSteps(response: String): String {
+    private fun parseSolutionSteps(response: String): Pair<String, String?> {
         val factory = XmlPullParserFactory.newInstance()
         val parser = factory.newPullParser()
         parser.setInput(StringReader(response))
 
         val solutionSteps = StringBuilder()
+        var imageUrl: String? = null
         var eventType = parser.eventType
         var isCorrectSubpod = false
 
@@ -105,6 +111,8 @@ class CalculatorUnit1IntegralDef : AppCompatActivity() {
                         if (eventType == XmlPullParser.TEXT) {
                             solutionSteps.append(parser.text).append("\n")
                         }
+                    } else if (isCorrectSubpod && parser.name == "img") {
+                        imageUrl = parser.getAttributeValue(null, "src")
                     }
                 }
                 XmlPullParser.END_TAG -> {
@@ -115,7 +123,7 @@ class CalculatorUnit1IntegralDef : AppCompatActivity() {
             }
             eventType = parser.next()
         }
-        return solutionSteps.toString()
+        return Pair(solutionSteps.toString(), imageUrl)
     }
 
 

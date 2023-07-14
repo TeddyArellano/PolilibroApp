@@ -113,7 +113,7 @@ ejemplos resueltos."/>
                         android:justificationMode="inter_word"
                         android:text="Al final de cada tema encontrarás 2 apartados:\n
 1. Listas de Ejercicios.\nEjercicios de los temas expuestos, que ya están resueltos y se muestra
-paso a paso su resolución.\n2. Acitivdades.\nEjercicios sin resolver, para que el alumno pueda poner en práctica lo aprendido.\n"/>
+paso a paso su resolución.\n2. Calculadora.\nPrograma creado para resolver problemas de los estudiantes.\n"/>
 
                 </LinearLayout>
 

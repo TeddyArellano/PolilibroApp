@@ -48,5 +48,11 @@ class Unit4Activity : AppCompatActivity() {
             val intent = Intent(this, Activity422::class.java)
             startActivity(intent)
         }
+
+        val btnCalculadoraUnit4 = findViewById<Button>(R.id.btnCalculadoraUnit4)
+        btnCalculadoraUnit4.setOnClickListener {
+            val intent = Intent(this, CalculatorUnit4::class.java)
+            startActivity(intent)
+        }
     }
 }

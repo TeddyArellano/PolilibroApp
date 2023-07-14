@@ -87,15 +87,6 @@
                     android:background="@drawable/button_unit2"
                     android:text="Regla de L'Hopital"/>
 
-                <Button
-                    android:layout_marginTop="30dp"
-                    android:id="@+id/btnIntegralesIndefinidas"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:textSize="18dp"
-                    android:background="@drawable/button_unit1"
-                    android:text="Integrales Definidas"/>
 
             </LinearLayout>
 

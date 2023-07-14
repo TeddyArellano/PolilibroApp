@@ -73,16 +73,6 @@
                     android:layout_gravity="center"
                     android:text="Ajustes"/>
 
-                <Button
-                    android:id="@+id/btnDarkMode"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="#EBE6DA"
-                    android:text="Modo Obscuro"
-                    android:textSize="20dp"
-                    android:gravity="left|center"
-                    android:textColor="#737396"
-                    android:textStyle="bold" />
 
                 <Button
                     android:id="@+id/btnTermsOfUse"
