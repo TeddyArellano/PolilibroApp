@@ -17,14 +17,18 @@ Polilibro es una aplicación móvil diseñada para ayudarte a estudiar cálculo 
 ✨ **Navegación intuitiva:**  
 Secciones organizadas para que encuentres fácilmente lo que necesitas aprender o repasar.
 
+![image](https://github.com/user-attachments/assets/f86aaa0c-e457-4d9d-8c49-158e8f8a2f95)
+
+
 🧮 **Calculadora Inteligente:**  
 Incluye una calculadora integrada que utiliza la **API de OpenAI** 🤖 para ayudarte a entender **paso a paso cómo resolver un problema**, y no solo darte el resultado.
 
 📚 **Material de apoyo:**  
 Contenido complementario para reforzar los conceptos fundamentales de cálculo.
+![image](https://github.com/user-attachments/assets/c820b44b-4dc0-4c8f-a2f0-02c4698d2583)
 
-🌐 **Control de versiones con Git y GitHub:**  
-El desarrollo del proyecto se gestionó utilizando buenas prácticas de control de versiones.
+![image](https://github.com/user-attachments/assets/fc94fe15-4deb-46a2-a4e6-78005d85cac3)
+
 
 ---
 
@@ -36,23 +40,7 @@ El desarrollo del proyecto se gestionó utilizando buenas prácticas de control 
 - Git & GitHub  
 - Android SDK
 
----
 
-## 📲 ¡Próximamente!
-
-Estamos trabajando en nuevas funciones como:
-- Evaluaciones interactivas
-- Historial de consultas con IA
-- Modo oscuro 🌙
-
----
-
-## 🤝 Contribuye
-
-¿Te gustaría apoyar o mejorar la app?  
-¡Contribuciones son bienvenidas! Puedes hacer un fork del repo, enviar un PR o abrir un issue con tus ideas 💡
-
----
 
 ## 🧑‍💻 Desarrollador
 
