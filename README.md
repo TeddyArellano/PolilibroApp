@@ -40,8 +40,3 @@ Contenido complementario para reforzar los conceptos fundamentales de cálculo.
 - Git & GitHub  
 - Android SDK
 
-
-
-## 🧑‍💻 Desarrollador
-
-Desarrollado con 💙 por [TuNombreAquí]  
